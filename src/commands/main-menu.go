@@ -2,7 +2,7 @@ package commands
 
 import (
 	"fmt"
-	"mao/src/libs"
+	"guracomp/src/libs"
 	"sort"
 	"strings"
 )
