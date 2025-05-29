@@ -1,7 +1,7 @@
 package libs
 
 import (
-	"mao/src/helpers"
+	"guracomp/src/helpers"
 	"time"
 
 	"go.mau.fi/whatsmeow"
