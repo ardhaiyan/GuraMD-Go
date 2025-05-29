@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 	"fmt"
-	"mao/src/libs"
+	"guracomp/src/libs"
 	"os"
 	"regexp"
 	"strings"
@@ -185,7 +185,7 @@ func init() {
 				}
 
 				if len(jRoom) > 5 {
-					m.Reply("Maaf, Limit Jadi Bot Sudah Habis")
+					m.Reply("Maaf, Limit Jadi Bot Sudah Tercapai")
 				}
 
 				m.Reply("Silahkan Pilih Mode Login :\n\n1. Pairing (Nomor)\n2. Qr\n\n*NT:* Balas Pesan ini, Dan *KETIK NOMORNYA*, Untuk Memilih Ya.", whatsmeow.SendRequestExtra{
