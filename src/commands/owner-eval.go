@@ -2,17 +2,17 @@ package commands
 
 import (
 	"encoding/json"
-	"mao/src/libs"
+	"guracomp/src/libs"
 
 	"github.com/robertkrimen/otto"
 )
 
 func init() {
 	libs.NewCommands(&libs.ICommand{
-		Name:     `;`,
-		As:       []string{";"},
+		Name:     `ev+`,
+		As:       []string{"ev+"},
 		Tags:     "owner",
-		IsPrefix: false,
+		IsPrefix: true,
 		Exec: func(client *libs.NewClientImpl, m *libs.IMessage) {
 			vm := otto.New()
 			vm.Set("M", m)
