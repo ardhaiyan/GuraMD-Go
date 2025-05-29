@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"mao/src/libs"
+	"guracomp/src/libs"
 	"time"
 )
 
