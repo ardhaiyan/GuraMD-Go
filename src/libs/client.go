@@ -221,7 +221,7 @@ func (cli *NewClientImpl) GenerateMessageID(cust string) types.MessageID {
 	binary.BigEndian.PutUint64(data, uint64(time.Now().Unix()))
 	data = append(data, random.Bytes(16)...)
 	hash := sha256.Sum256(data)
-	return cust + strings.ToUpper(hex.EncodeToString(hash[:12])) + "NM4O"
+	return cust + strings.ToUpper(hex.EncodeToString(hash[:12])) + "6UR4"
 }
 
 func (client *NewClientImpl) FetchGroupAdmin(Jid types.JID) ([]string, error) {
