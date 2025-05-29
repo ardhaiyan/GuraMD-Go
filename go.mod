@@ -1,4 +1,4 @@
-module mao
+module guracomp
 
 go 1.20
 
