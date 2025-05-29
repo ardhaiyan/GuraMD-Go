@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"mao/src/helpers"
-	"mao/src/libs"
+	"guracomp/src/helpers"
+	"guracomp/src/libs"
 	"net/http"
 	"os"
 	"os/signal"
