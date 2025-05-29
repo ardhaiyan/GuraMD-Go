@@ -3,7 +3,7 @@ package helpers
 import "os"
 
 var (
-	Public = false
+	Public = true
 	Name   = os.Getenv("Name_Bot")
 	Owner  = os.Getenv("Owner_Number")
 )
